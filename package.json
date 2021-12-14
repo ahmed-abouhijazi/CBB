@@ -1,0 +1,33 @@
+{
+  "name": "ccb-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Consiglierii/CCB-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Consiglierii/CCB-API/issues"
+  },
+  "homepage": "https://github.com/Consiglierii/CCB-API#readme",
+  "dependencies": {
+    "@polkadot/util-crypto": "^8.1.2",
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "ethereumjs-common": "^1.5.2",
+    "ethereumjs-tx": "^2.1.2",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "web3": "^1.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
